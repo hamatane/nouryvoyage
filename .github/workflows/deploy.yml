@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to Hetzner
         uses: appleboy/ssh-action@v0.1.10
         with:
-          host: ${{ secrets.HOST }}
+          host: 46.225.70.88
           username: nourya
           key: ${{ secrets.SSH_KEY }}
           script: |
