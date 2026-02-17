@@ -28,9 +28,7 @@ jobs:
 
       # 4. Install PHP dependencies
       - name: Install Composer dependencies
-        uses: |
-          composer install --no-dev --optimize-autoloader --no-interaction
-
+        uses: composer install --no-dev --optimize-autoloader --no-interaction
       # 5. Build assets
       - name: Build assets
         run: |
