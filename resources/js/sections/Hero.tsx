@@ -57,7 +57,7 @@ const Hero = () => {
 
                     {/* Headline */}
                     <h1 className="mb-6 text-4xl leading-tight font-bold text-white md:text-5xl lg:text-6xl">
-                        {['Un', 'voyage sacré,', 'vers la paix intérieure'].map((word, index) => (
+                        {['Un', 'voyage sacré', 'vers la paix intérieure'].map((word, index) => (
                             <span
                                 key={index}
                                 className={`mr-3 inline-block transition-all duration-700 ${
